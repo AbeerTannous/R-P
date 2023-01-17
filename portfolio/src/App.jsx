@@ -1,8 +1,12 @@
 
+import PortfolioContainer from './components/PortfolioContainer'
+
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <PortfolioContainer></PortfolioContainer>
+    </div>
   )
 }
 
