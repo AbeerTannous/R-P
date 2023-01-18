@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Montserrat','sans-serif';
+    line-height: 1.7;
+    background:#aeb0b5;
+    color: #212121;
+    background-image: url(../src/images/textured-stripes.png);
+}
+h3{
+    text-align: center;
+    margin-top: 20px;
+}

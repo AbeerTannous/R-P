@@ -3,19 +3,20 @@ import './navBar.css'
 const NavBar = () => {
   return (
     <div>
-      <h1>Hello I Am Abeer!</h1>
+      <h3 >Hello I Am Abeer!</h3>
     <ul class="nav justify-content-center">
+    
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
+        <a class="nav-link active" aria-current="page" href="#">About Me</a>
       </li>
       <li class="nav-item">
-         <a class="nav-link" href="#">Link</a>
+         <a class="nav-link" href="#">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled">Disabled</a>
+        <a class="nav-link" href="#" >Resume</a>
       </li>
     </ul>
     </div>
