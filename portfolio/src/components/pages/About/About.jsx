@@ -20,7 +20,7 @@ const About = () => {
           </p>
         </div>
       <div class="col">
-        <img src={mypc} class="img-fluid float-start" alt="my picture" />
+        <img src={mypc} class="img-fluid float-start me" alt="my picture" />
       </div>
       </div>
     </div>

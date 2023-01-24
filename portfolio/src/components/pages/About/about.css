@@ -10,7 +10,10 @@
 img{
     width: 70%;
     margin-top: 55px;
-    
+  
+}
+img:hover{
+    transform:rotate(10deg);
     
 }
 p{

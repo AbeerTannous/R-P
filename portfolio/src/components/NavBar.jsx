@@ -7,7 +7,7 @@ const NavBar = ({currentPage,handelPageChange}) => {
     <ul class="nav justify-content-center">
     
       <li class="nav-item">
-        <a class="nav-link " aria-current="page" href="#About" onClick={()=>handelPageChange('About')} className={currentPage==='About'?'active':'nav-link'}>About Me</a>
+        <a class="nav-link" aria-current="page" href="#About" onClick={()=>handelPageChange('About')} className={currentPage==='About'?'active':'nav-link'}>About Me</a>
       </li>
       <li class="nav-item">
          <a class="nav-link" href="#ProjectList" onClick={()=>handelPageChange('ProjectList')}className={currentPage==='ProjectList'?'active':'nav-link'}>Portfolio</a>
