@@ -9,7 +9,9 @@
 
 img{
     width: 70%;
-    margin-top: 55px;
+    height: auto;
+    margin-top: 60px;
+    
   
 }
 img:hover{
@@ -23,3 +25,23 @@ p{
 /* .title{
     margin-top: 20px;
 } */
+
+@media screen and (max-width:1024px) {
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    img{
+        
+        width: 60%;
+        height: auto;
+        min-width:47px;
+    }
+    .main{
+        margin: 0px;
+    }
+   
+}
