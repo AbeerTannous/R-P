@@ -7,14 +7,14 @@
 }
 
 
-img{
+.me{
     width: 70%;
     height: auto;
     margin-top: 60px;
     
   
 }
-img:hover{
+.me:hover{
     transform:rotate(10deg);
     
 }
@@ -27,14 +27,14 @@ p{
 } */
 
 @media screen and (max-width:1024px) {
-    img{
+    .me{
         width: 100%;
         height: auto;
     }
 }
 
 @media screen and (max-width:600px) {
-    img{
+    .me{
         
         width: 60%;
         height: auto;
