@@ -1,9 +1,11 @@
 import './projectList.css';
 import { useState } from 'react';
-import p from '../../../images/book-search.png';
+import Modal from '../Modal/Modal';
 
 
-const ProjectList = () => {
+const ProjectList = () => { 
+
+const [isModalOpen,setIsModalOpen]= useState(false);
 
 const [projects] = useState([
   {
@@ -60,22 +62,26 @@ const [projects] = useState([
     name: 'Photo Port',
     live: 'https://abeertannous.github.io/React-Project/',
     github:'https://github.com/AbeerTannous/React-Project',
-    description: 'A photographer single page portfolio',
+    description: 'A photographer single page portfolio ,done with React',
    screenshot:require ('../../../images/photo-port.png')
   },
  
 ])
-
-
+ const [currentProject,setCurrentProject]=useState();
+const toggleModal=(project,i)=>{
+  setCurrentProject({...project,index :i})
+  setIsModalOpen(!isModalOpen);
+}
 
 
   return (
 
 
 <div className='portfolio-container'>
+  {isModalOpen && (<Modal currentProject={currentProject} onClose={toggleModal}/>)}
 {projects.map((project,i)=>(
   <article className='portfolio-item'>
-    <div >
+    <div onClick={() => toggleModal(project, i)}  >
       <img className='portfolio-item-img' src={project.screenshot} alt={project.name} />
     </div>
     <h5>{project.name}</h5>
@@ -85,47 +91,10 @@ const [projects] = useState([
   ))}
 </div>
    
-
-
-
-
-
-
-
-
-
     )}
 
 
 export default ProjectList
     
-    // <section className='projectListCard container '>
-    //   <div class="row">
-    //      {projects.map((project,i)=>(
-    //       <div class="card col-4" >
-    //       <img src={project.screenshot} class="card-img-top" alt={project.name} key={project.name}/>
-    //       <div class="card-body">
-    //         <p class="card-text">{project.description}</p>
-    //       </div>
-    //    </div>
-       
-    // ))}
-    // </div>
-    //  </section>
-// {/* <section className='projectListCard'>
-// <div class="row row-cols-1 row-cols-md-3 g-4">
-//   {projects.map((project,i)=>(
-//   <div class="col-4 bottom-margin">
-//     <div class="card h-100">
-//       <img src={project.screenshot} class="card-img-top" alt={project.name} key={project.name}/>
-//       <div class="card-body">
-//         <h5 class="card-title">{project.name}</h5>
-//         <p class="card-text">{project.description}</p>
-//       </div>
-//     </div>
-//   </div>
-  
-// ))}
-// </div>
-// </section> */}
+
   
