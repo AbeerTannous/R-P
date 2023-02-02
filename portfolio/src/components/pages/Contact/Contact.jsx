@@ -1,6 +1,23 @@
 import './contact.css';
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com'
 
 function Contact() {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_jwc2gme', 'template_uqzl9vx', form.current, 'u25kKLm7sP1SwG7II')
+    
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset();
+  };
+
   return (
     <div className='contact-container'>
       <div className='contact-options'>
@@ -19,7 +36,7 @@ function Contact() {
       </div>
     
 
-    <form>
+    <form ref={form} onSubmit={sendEmail}>
       <input type="text" name="name" placeholder='Your Full Name' required></input>
       <input type="email" name="email" placeholder='Your Email' required></input>
       <textarea name="message" rows="10" placeholder='Your Message'></textarea>
