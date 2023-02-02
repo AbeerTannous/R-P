@@ -1,0 +1,41 @@
+/* .resume-container{
+    width: 100%;
+    
+} */
+.skills-container{
+    
+    border-radius: 0.5rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.frontend-backend-container{
+    background-color: #d6d7d9;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+.resume-dawnload{
+    text-align: center;
+}
+@media screen and (max-width:1024px) {
+   .skills-container{
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+   }
+}
+
+@media screen and (max-width:600px) {
+    .skills-container{
+        flex-direction: column;
+        margin-top: 1rem;
+        gap: 1rem;
+       }
+    .resume-dawnload{
+    
+        font-size:medium;
+
+       }
+   
+}

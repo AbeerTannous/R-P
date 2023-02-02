@@ -19,6 +19,8 @@ function Contact() {
   };
 
   return (
+    <div>
+    <h2 className='title'>Contact Me</h2>
     <div className='contact-container'>
       <div className='contact-options'>
         <article className='contact-option'>
@@ -43,6 +45,7 @@ function Contact() {
       <button type="submit" className='form-btn'>Send Message</button>
 
     </form>
+    </div>
     </div>
   )
 }

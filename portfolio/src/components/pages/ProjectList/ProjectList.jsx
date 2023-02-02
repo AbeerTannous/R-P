@@ -75,8 +75,8 @@ const toggleModal=(project,i)=>{
 
 
   return (
-
-
+<div>
+<h2 className='title'>My Portfolio</h2>
 <div className='portfolio-container'>
   {isModalOpen && (<Modal currentProject={currentProject} onClose={toggleModal}/>)}
 {projects.map((project,i)=>(
@@ -90,7 +90,7 @@ const toggleModal=(project,i)=>{
   </article>
   ))}
 </div>
-   
+</div>
     )}
 
 
