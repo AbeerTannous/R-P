@@ -5,6 +5,16 @@ import ProjectList from './pages/ProjectList/ProjectList'
 import Resume from './pages/Resume/Resume'
 import Contact from './pages/Contact/Contact'
 import { useState } from 'react'
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from 'react-accessible-accordion';
+
+import 'react-accessible-accordion/dist/fancy-example.css';
+
 
 const PortfolioContainer = () => {
   const [currentPage,setCurrentPage]=useState('About')
@@ -23,6 +33,7 @@ const PortfolioContainer = () => {
   const handelPageChange=(page)=>setCurrentPage(page);
   return (
     <div>
+    <div className='none-on-mediaquery'>
     <NavBar currentPage={currentPage} handelPageChange={handelPageChange}></NavBar>;
     <div class= "container-sm">
       {renderPage()}
@@ -34,6 +45,56 @@ const PortfolioContainer = () => {
 
     </footer>
     </div>
+   
+  
+   {/* display only on small devices  */}
+
+
+<Accordion className='display-none-on-big-devices'>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        About Me
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <About></About>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        Portfolio
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <ProjectList></ProjectList>
+                </AccordionItemPanel>
+            </AccordionItem>
+        
+        <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        Contact Me
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <Contact></Contact>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        Rusume
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <Resume></Resume>
+                </AccordionItemPanel>
+            </AccordionItem>
+            </Accordion>
+
+        </div>
   )
 }
 

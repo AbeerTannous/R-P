@@ -1,3 +1,8 @@
+
+.display-none-on-big-devices{
+    display: none;
+}
+
 footer {
     text-align: center;
     margin-top: 20px;
@@ -25,13 +30,27 @@ a:hover{
     text-align: center;
 }
 @media screen and (max-width:1024px) {
+    .container-sm{
+        margin: 0;
+
+       
+    }
     
  }
  
  @media screen and (max-width:600px) {
+    .none-on-mediaquery{
+        display: none;
+    }
+    .display-none-on-big-devices{
+        display: block;
+    }
     .title{
-        font-size: medium;
+        font-size: large;
         font-weight: bold;
+    }
+    .non-on-mediaquery{
+        display: none;
     }
  }
  

@@ -2,7 +2,7 @@ import './navBar.css'
 
 const NavBar = ({currentPage,handelPageChange}) => {
   return (
-    <div>
+    <div className='nav-bar-onFullscreen'>
       <h3 >Hello I Am Abeer!</h3>
     <ul class="nav justify-content-center">
     
