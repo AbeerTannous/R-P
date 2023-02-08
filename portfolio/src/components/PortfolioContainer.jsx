@@ -51,7 +51,7 @@ const PortfolioContainer = () => {
 
 
 <Accordion className='display-none-on-big-devices'>
-            <AccordionItem>
+            <AccordionItem >
                 <AccordionItemHeading>
                     <AccordionItemButton>
                         About Me
