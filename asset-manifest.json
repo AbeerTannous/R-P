@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/R-P/static/css/main.be2049de.css",
-    "main.js": "/R-P/static/js/main.573f363d.js",
-    "static/media/photo-port.png": "/R-P/static/media/photo-port.28763a2ee09bae6cd9cb.png",
-    "static/media/mypc.jpg": "/R-P/static/media/mypc.574fc4932458239e7829.jpg",
-    "static/media/book-search.png": "/R-P/static/media/book-search.733df0a4e5536609f371.png",
-    "static/media/tasklead.png": "/R-P/static/media/tasklead.092a80f12f87bc100ada.png",
-    "static/media/recipe.png": "/R-P/static/media/recipe.eb22f00053ca909b8f87.png",
-    "static/media/the-pet-project.png": "/R-P/static/media/the-pet-project.8cda1ae184bfb3fa0e81.png",
-    "static/media/hire-social-media-api-developers.jpg": "/R-P/static/media/hire-social-media-api-developers.a3bab1e63cd2f5a63a6e.jpg",
-    "static/media/Budget-Tracker.png": "/R-P/static/media/Budget-Tracker.65edfd3b2fca6198f0f4.png",
-    "static/media/resume.pdf": "/R-P/static/media/resume.dced5a091e1d1ecd7c06.pdf",
-    "static/media/textured-stripes.png": "/R-P/static/media/textured-stripes.f7ac0a9c3fb47fc23953.png",
-    "static/media/myInventory.png": "/R-P/static/media/myInventory.f8b48af1a1c80605fffe.png",
-    "index.html": "/R-P/index.html",
-    "main.be2049de.css.map": "/R-P/static/css/main.be2049de.css.map",
-    "main.573f363d.js.map": "/R-P/static/js/main.573f363d.js.map"
+    "main.css": "/static/css/main.cb7f67ab.css",
+    "main.js": "/static/js/main.dc59cb62.js",
+    "static/media/photo-port.png": "/static/media/photo-port.28763a2ee09bae6cd9cb.png",
+    "static/media/mypc.jpg": "/static/media/mypc.574fc4932458239e7829.jpg",
+    "static/media/book-search.png": "/static/media/book-search.733df0a4e5536609f371.png",
+    "static/media/tasklead.png": "/static/media/tasklead.092a80f12f87bc100ada.png",
+    "static/media/recipe.png": "/static/media/recipe.eb22f00053ca909b8f87.png",
+    "static/media/the-pet-project.png": "/static/media/the-pet-project.8cda1ae184bfb3fa0e81.png",
+    "static/media/hire-social-media-api-developers.jpg": "/static/media/hire-social-media-api-developers.a3bab1e63cd2f5a63a6e.jpg",
+    "static/media/Budget-Tracker.png": "/static/media/Budget-Tracker.65edfd3b2fca6198f0f4.png",
+    "static/media/resume.pdf": "/static/media/resume.dced5a091e1d1ecd7c06.pdf",
+    "static/media/textured-stripes.png": "/static/media/textured-stripes.f7ac0a9c3fb47fc23953.png",
+    "static/media/myInventory.png": "/static/media/myInventory.f8b48af1a1c80605fffe.png",
+    "index.html": "/index.html",
+    "main.cb7f67ab.css.map": "/static/css/main.cb7f67ab.css.map",
+    "main.dc59cb62.js.map": "/static/js/main.dc59cb62.js.map"
   },
   "entrypoints": [
-    "static/css/main.be2049de.css",
-    "static/js/main.573f363d.js"
+    "static/css/main.cb7f67ab.css",
+    "static/js/main.dc59cb62.js"
   ]
 }
