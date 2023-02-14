@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cb7f67ab.css",
-    "main.js": "/static/js/main.dc59cb62.js",
+    "main.js": "/static/js/main.9dde50aa.js",
     "static/media/photo-port.png": "/static/media/photo-port.28763a2ee09bae6cd9cb.png",
     "static/media/mypc.jpg": "/static/media/mypc.574fc4932458239e7829.jpg",
     "static/media/book-search.png": "/static/media/book-search.733df0a4e5536609f371.png",
@@ -10,15 +10,15 @@
     "static/media/the-pet-project.png": "/static/media/the-pet-project.8cda1ae184bfb3fa0e81.png",
     "static/media/hire-social-media-api-developers.jpg": "/static/media/hire-social-media-api-developers.a3bab1e63cd2f5a63a6e.jpg",
     "static/media/Budget-Tracker.png": "/static/media/Budget-Tracker.65edfd3b2fca6198f0f4.png",
-    "static/media/resume.pdf": "/static/media/resume.dced5a091e1d1ecd7c06.pdf",
+    "static/media/resume.pdf": "/static/media/resume.d2189b75c963b1a1ecdd.pdf",
     "static/media/textured-stripes.png": "/static/media/textured-stripes.f7ac0a9c3fb47fc23953.png",
     "static/media/myInventory.png": "/static/media/myInventory.f8b48af1a1c80605fffe.png",
     "index.html": "/index.html",
     "main.cb7f67ab.css.map": "/static/css/main.cb7f67ab.css.map",
-    "main.dc59cb62.js.map": "/static/js/main.dc59cb62.js.map"
+    "main.9dde50aa.js.map": "/static/js/main.9dde50aa.js.map"
   },
   "entrypoints": [
     "static/css/main.cb7f67ab.css",
-    "static/js/main.dc59cb62.js"
+    "static/js/main.9dde50aa.js"
   ]
 }
